@@ -15,6 +15,6 @@ puts "What time?"
 time = gets.chomp
 
 puts "Who is the host?"
-host_name = gets.chomp.capitalize
+host_name = gets.chomp
 
 print "Dear #{guest_name}, \n\nYou are cordially invited to the #{party_name} on #{date} at #{time}. \n\nSincerely, \n\n#{host_name}"
